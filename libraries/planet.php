@@ -59,7 +59,7 @@
 			// get CodeIgniter cache driver
 			$this->CI->load->driver('cache', array('adapter' => 'file', 'backup' => 'dummy'));
 			// get config
-			$this->config = (object)$this->CI->config->item('sandcastle-planet');
+			$this->config = (object)$this->CI->config->item('sandcastle_planet');
 			// correct cache time to convert minutes into seconds.
 			$this->config->cache_expires *= 60;
 		}
@@ -236,7 +236,7 @@
 		 * @param	SimpleXMLElement	$feed	the feed to process
 		 * @return	object 	the processed feed
 		 */
-		public function process_atom($feed)
+		private function process_atom($feed)
 		{
 			$return = array();
 			
