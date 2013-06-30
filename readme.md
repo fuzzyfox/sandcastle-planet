@@ -52,9 +52,20 @@ Validates that a feed exists, and is supported by this library. *Returns TRUE on
 		echo 'Invalid Feed';
 	}
 
+## License
+### CodeIgniter
+For more information on the CodeIgniter License read it over at [http://ellislab.com/codeigniter/user-guide/license.html][7].
+
+### SandCastle
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this file,
+You can obtain one at [mozilla.org/MPL/2.0][8].
+
 [1]: http://www.mozilla.org.uk/
 [2]: http://ellislab.com/codeigniter/
 [3]: http://getsparks.org/
 [4]: http://simplepie.org/
 [5]: http://getsparks.org/install/
 [6]: https://github.com/fuzzyfox/sandcastle-planet/tags
+[7]: http://ellislab.com/codeigniter/user-guide/license.html
+[8]: http://mozilla.org/MPL/2.0/
